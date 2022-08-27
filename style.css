@@ -1,0 +1,1134 @@
+/* Used Foants :
+    - font-family: 'Poppins', sans-serif;
+    - font-family: 'Ubuntu', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* Header - start */
+
+.header {
+    background: #F6F6F6;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 223px;
+
+    padding: 30px 0;
+}
+
+.nav__logo {
+    width: 195px;
+}
+
+.header-nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+
+    list-style: none;
+}
+
+.header-nav__item a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #03045E;
+}
+
+/* --- Menu --- */
+
+.header-nav__menu {
+    position: relative;
+
+    display: none;
+}
+
+.header-nav__menu-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #03045E;
+}
+
+.header-nav__menu-list {
+    position: absolute;
+    top: 37px;
+    right: 0;
+
+    list-style: none;
+}
+
+.header-nav__menu-item {
+    text-align: center;
+
+    margin-top: 10px;
+
+    border-bottom: 1px solid #03045E;
+}
+
+.header-nav__menu-item a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #03045E;
+}
+
+/* --- --- */
+
+.blue__button {
+    padding: 11px 35px;
+
+    border: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+    background: #03045E;
+    border-radius: 5px;
+}
+
+.blue__button a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+/* --- */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 121px 224px 200px;
+}
+
+.header-content__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    row-gap: 36px;
+
+    max-width: 556px;
+}
+
+.header-content__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+
+    color: #03045E;
+}
+
+.header-content__inner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(3, 4, 94, 0.5);
+}
+
+.header-content__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #0098FF;
+    border-radius: 5px;
+
+    width: 188px;
+    height: 61px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.header-content__img {
+    width: 624px;
+}
+
+/* Header - end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Domain section - start */
+
+.domain-section {
+    padding: 150px 224px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.domain-section__text .domain-text__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #03045E;
+}
+
+.domain-form {
+    width: 625px;
+    height: 60px;
+
+    margin-top: 36px;
+
+    position: relative;
+
+    border-radius: 5px;
+    border: none;
+}
+
+.domain-form__text {
+    height: 100%;
+    width: 100%;
+
+    padding-left: 20px;
+    border: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+
+    color: #03045E;
+
+    opacity: 0.5;
+
+    border-radius: 5px;
+}
+
+.domain-form__text:focus {
+    outline: 1px solid grey;
+}
+
+.domain-form__btn-submit {
+    width: 159px;
+    height: 100%;
+
+    position: absolute;
+    right: 0;
+
+    background: #0098FF;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+
+
+.domain-section__prices {
+    margin-left: 69px;
+    padding-left: 69px;
+
+    width: 586px;
+
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 116px;
+    row-gap: 32px;
+}
+
+.domain-section__border-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 1px;
+
+    background-color: #03045E;
+
+    opacity: 0.1;
+}
+
+.domain-prices__item {
+    width: 95px;
+}
+
+.domain-prices__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #0098FF;
+}
+
+.domain-prices__inner {
+    margin-top: 7px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #03045E;
+
+    opacity: 0.3;
+}
+
+/* Domain section - end */
+
+
+
+
+
+
+
+
+
+/* Services - start */
+
+.services-section {
+    padding: 150px 224px;
+
+    background: rgba(246, 246, 246, 0.4);
+}
+
+.services-section__title {
+    text-align: center;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #03045E;
+}
+
+.services-section__services {
+    margin-top: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    column-gap: 30px;
+    row-gap: 80px;
+}
+
+.services__item {
+    width: 407px;
+
+    text-align: center;
+}
+
+.services__img {
+    background: #F6F6F6;
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+.services__title,
+.services__inner {
+    margin-top: 30px;
+}
+
+.services__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #03045E;
+}
+
+.services__inner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #03045E;
+
+    opacity: 0.5;
+}
+
+
+
+
+
+
+/* Services - end */
+
+
+
+
+
+/* Clients - start */
+
+.clients-section {
+    padding: 150px 224px;
+}
+
+.clients-section__title {
+    text-align: center;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #03045E;
+}
+
+.clients-devs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+
+    margin-top: 60px;
+}
+
+.clients-devs__item {
+    padding: 50px 40px;
+
+    width: 407px;
+
+    text-align: center;
+}
+
+.clients-devs__inner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #03045E;
+
+    opacity: 0.5;
+}
+
+.clients-devs__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #03045E;
+
+    margin-top: 30px;
+}
+
+.clients-devs__footer-innner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #03045E;
+
+    opacity: 0.5;
+
+    margin-top: 8px;
+}
+
+
+
+/* Clients - end */
+
+
+
+
+
+
+/* Advantages - start */
+
+.Advantages-section {
+    padding: 100px 225px;
+
+    background: #0098FF;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.Advantages-section__item {
+    text-align: center;
+
+    width: 297px;
+}
+
+.Advantages-section__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+
+    color: #FFFFFF;
+}
+
+.Advantages-section__inner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+/* Advantages - end */
+
+
+
+
+/* Plan - start */
+
+.rate-box__blue-item {
+    background: #0098FF;
+}
+
+.rate-item__white-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.rate-item__white-inner {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+
+    margin-top: 16px;
+}
+
+.rate-item__white-list {
+    margin-top: 40px;
+}
+
+.rate-item__white-list li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 10px 0;
+}
+
+.rate-item__white-list li span {
+    font-weight: 600;
+
+    margin-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+.rate-section {
+    padding: 150px 224px;
+}
+
+.rate-section__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #03045E;
+
+    margin-bottom: 60px;
+}
+
+.rate-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rate-box__item {
+    padding: 40px 0 50px;
+
+    width: 318px;
+
+    text-align: center;
+}
+
+.rate-box__item-text .rate-item__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #0098FF;
+}
+
+.rate-item__inner {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #03045E;
+
+    margin-top: 16px;
+}
+
+.rate-item__list {
+    margin-top: 40px;
+}
+
+.rate-item__list li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #03045E;
+
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 10px 0;
+}
+
+.rate-item__list li span {
+    font-weight: 600;
+
+    margin-right: 2px;
+}
+
+.rate-item__btn {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+/* Plan - end */
+
+
+
+/* Footer - start */
+
+/* Footer-info - start */
+
+.footer-info {
+    padding: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    row-gap: 25px;
+}
+
+.footer-info__text {
+    max-width: 297px;
+}
+
+.info-text__inner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #03045E;
+
+    opacity: 0.5;
+
+    margin-top: 24px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+
+    column-gap: 102px;
+}
+
+.info-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    column-gap: 113px;
+    row-gap: 50px;
+}
+
+
+
+
+.info-nav__list {
+    list-style: none;
+}
+
+.info-list__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #000000;
+
+    margin-bottom: 28px;
+}
+
+.info-nav__list li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    
+    color: #03045E;
+    
+    opacity: 0.5;
+}
+
+.info-nav__inner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    
+    color: #03045E;
+    
+    opacity: 0.5;
+}
+
+.info-nav__soc-medias-box {
+    display: flex;
+    column-gap: 22px;
+}
+
+.info-nav__soc-medias-box a {
+    text-decoration: none;
+}
+
+.info-nav__soc-medias-box a img {
+    height: 24px;
+}
+
+
+
+
+/* Footer-info - end */
+
+
+
+
+
+/* Footer-copyrights - start */
+
+.footer-copyrights {
+    padding: 43px 222px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-copyrights__cr-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #03045E;
+}
+
+.footer-copyrights__Policy-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #03045E;
+}
+
+/* Footer-copyrights - end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+
+    /* Header */
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-content__img {
+        margin-top: 50px;
+    }
+
+    /* Services */
+
+    .services-section {
+        padding: 150px 100px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    /* Header */
+
+    .header-nav {
+        margin: 0 5%;
+    }
+
+    .header-nav__list {
+        display: none;
+    }
+
+    .header-nav__menu {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+    /* Domain section */
+
+    .domain-section {
+        padding: 150px 224px;
+
+        flex-wrap: wrap;
+    }
+
+    .domain-section__text {
+        text-align: center;
+
+        margin: 0 auto;
+    }
+
+    .domain-form {
+        width: 425px;
+    }
+
+    .domain-section__prices {
+        margin-left: 0px;
+        padding-left: 0px;
+
+        margin: 40px auto;
+        padding-top: 40px;
+
+        justify-content: center;
+    }
+
+    .domain-section__border-left {
+        width: 100%;
+        height: 1px;
+    }
+
+    .domain-prices__item {
+        text-align: center;
+    }
+
+
+
+
+
+
+    /* Services */
+
+    .services-section {
+        padding: 150px 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+
+    /* Header */
+
+    .header-content {
+        padding: 121px 124px 200px;
+    }
+
+    .header-content__img {
+        width: 413px;
+    }
+
+
+
+    /* Domain section */
+
+    .domain-section {
+        padding: 150px 120px;
+    }
+
+    .domain-section__prices {
+        justify-content: center;
+    }
+
+
+
+    /* Clients */
+
+    .clients-section {
+        padding: 150px 60px;
+    }
+
+
+    /* Plan */
+
+    .rate-section {
+        padding: 150px 50px;
+    }
+
+    /* Footer-copyrights */
+
+    .footer-copyrights {
+        justify-content: center;
+        row-gap: 20px;
+
+        padding: 43px 100px 40px;
+    }
+
+}
+
+@media screen and (max-width: 652px) {
+
+    /* Domain */
+
+    .domain-section {
+        justify-content: center;
+    }
+
+    .domain-form {
+        width: 414px;
+    }
+
+    /* Services */
+
+    .services-section {
+        padding: 150px 60px;
+    }
+
+    /* Footer - info */
+
+    .info-nav__list, .info-nav__contacts {
+        text-align: center;
+
+        margin: 0 auto;
+    }
+
+    .info-nav__soc-medias-box {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    /* Header */
+
+    .header-content__img {
+        width: 340px;
+    }
+
+
+
+
+
+
+    /* Domain section */
+
+    .domain-section {
+        padding: 150px 5px;
+    }
+
+    .domain-text__title {
+        max-width: 395px;
+    }
+
+    .domain-form {
+        width: 345px;
+
+        margin: 36px auto 0;
+    }
+
+    .domain-form__btn-submit {
+        bottom: -100%;
+
+        width: 100%;
+
+        border-radius: 0 0 5px 5px;
+    }
+
+    .domain-section__prices {
+        margin-top: 100px;
+    }
+
+
+
+    /* Advantages-section */
+
+    .Advantages-section {
+        padding: 100px 0;
+    }
+
+
+
+
+    /* Plan */
+
+    .rate-section {
+        padding: 150px 10px;
+    }
+
+
+
+    /* Footer-copyrights */
+
+    .footer-copyrights {
+        padding: 43px 20px 40px;
+    }
+
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="js.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Foants -->
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="header-nav">
+            <a class="nav__logo" href="">
+                <img src="Img/Header/Logo.svg" alt="">
+            </a>
+
+            <ul class="header-nav__list">
+                <li class="header-nav__item"><a href="">Home</a></li>
+                <li class="header-nav__item"><a href="">About Us</a></li>
+                <li class="header-nav__item"><a href="">Searvice</a></li>
+                <li class="header-nav__item"><a href="">Contact Us</a></li>
+                <li class="header-nav__item blue__button"><a href="">Login</a></li>
+            </ul>
+
+            <div class="header-nav__menu">
+                <a class="blue__button" id="menu-btn" href="#">Menu</a>
+                <ul class="header-nav__menu-list">
+                    <li class="header-nav__menu-item"><a href="">Home</a></li>
+                    <li class="header-nav__menu-item"><a href="">About Us</a></li>
+                    <li class="header-nav__menu-item"><a href="">Searvice</a></li>
+                    <li class="header-nav__menu-item"><a href="">Contact Us</a></li>
+                    <li class="header-nav__menu-item blue__button"><a href="">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-content">
+
+            <div class="header-content__text">
+                <h4 class="header-content__title">Fully Managed Cloud & Web Hosting</h4>
+                <p class="header-content__inner">Deidcated resources, full root access, & easy scaling. It’s the virtual
+                    private server you’ve been cravin</p>
+                <a href="" class="header-content__button">View Pricing</a>
+            </div>
+
+            <img class="header-content__img" src="Img/Header/Content-img.jpg" alt="">
+
+        </div>
+
+    </header>
+
+    <section class="domain-section">
+
+        <div class="domain-section__text">
+
+            <h4 class="domain-text__title">Search Your Domain Now</h4>
+            <form class="domain-form" action="">
+                <input class="domain-form__text" type="text" placeholder="Search your domain...">
+                <input class="domain-form__btn-submit" type="submit" value="Find Now">
+            </form>
+
+        </div>
+
+        <div class="domain-section__prices">
+            <span class="domain-section__border-left"></span>
+
+            <div class="domain-prices__item">
+                <h4 class="domain-prices__title">.com</h4>
+                <p class="domain-prices__inner">$10 / month</p>
+            </div>
+
+            <div class="domain-prices__item">
+                <h4 class="domain-prices__title">.co.uk</h4>
+                <p class="domain-prices__inner">$30 / month</p>
+            </div>
+
+            <div class="domain-prices__item">
+                <h4 class="domain-prices__title">.shop</h4>
+                <p class="domain-prices__inner">$12 / month</p>
+            </div>
+
+            <div class="domain-prices__item">
+                <h4 class="domain-prices__title">.in</h4>
+                <p class="domain-prices__inner">$11 / month</p>
+            </div>
+
+            <div class="domain-prices__item">
+                <h4 class="domain-prices__title">.de</h4>
+                <p class="domain-prices__inner">$17 / month</p>
+            </div>
+
+            <div class="domain-prices__item">
+                <h4 class="domain-prices__title">.nl</h4>
+                <p class="domain-prices__inner">$20 / month</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services-section">
+
+        <h2 class="services-section__title">Our Services</h2>
+
+        <div class="services-section__services">
+
+            <div class="services__item">
+                <img class="services__img" src="Img/Services/Web-hosting.svg" alt="">
+                <h4 class="services__title">Shared Web Hosting</h4>
+                <p class="services__inner">Vestibulum tristique urna eget odio interdum pellentesque. In sodales
+                    venenatis lectus, ac tincidunt quam placerat egestas.</p>
+            </div>
+
+            <div class="services__item">
+                <img class="services__img" src="Img/Services/Vps-hosting.svg" alt="">
+                <h4 class="services__title">VPS Hosting</h4>
+                <p class="services__inner">Vestibulum tristique urna eget odio interdum pellentesque. In sodales
+                    venenatis lectus, ac tincidunt quam placerat egestas.</p>
+            </div>
+
+            <div class="services__item">
+                <img class="services__img" src="Img/Services/Dedicated Server.svg" alt="">
+                <h4 class="services__title">Dedicated Server </h4>
+                <p class="services__inner">Vestibulum tristique urna eget odio interdum pellentesque. In sodales
+                    venenatis lectus, ac tincidunt quam placerat egestas.</p>
+            </div>
+
+            <div class="services__item">
+                <img class="services__img" src="Img/Services/Cloud-hosting.svg" alt="">
+                <h4 class="services__title">Cloud Hosting</h4>
+                <p class="services__inner">Vestibulum tristique urna eget odio interdum pellentesque. In sodales
+                    venenatis lectus, ac tincidunt quam placerat egestas.</p>
+            </div>
+
+            <div class="services__item">
+                <img class="services__img" src="Img/Services/Domain-names.svg" alt="">
+                <h4 class="services__title">Domain Names</h4>
+                <p class="services__inner">Vestibulum tristique urna eget odio interdum pellentesque. In sodales
+                    venenatis lectus, ac tincidunt quam placerat egestas.</p>
+            </div>
+
+            <div class="services__item">
+                <img class="services__img" src="Img/Services/License-keys.svg" alt="">
+                <h4 class="services__title">License Keys</h4>
+                <p class="services__inner">Vestibulum tristique urna eget odio interdum pellentesque. In sodales
+                    venenatis lectus, ac tincidunt quam placerat egestas.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="clients-section">
+        <h2 class="clients-section__title">Word From Our Clients</h2>
+
+        <div class="clients-devs">
+
+            <div class="clients-devs__item">
+                <p class="clients-devs__inner">Aenean suscipit eu nulla et lacinia. Nulla diam felis, malesuada ut erat
+                    quis, mattis dignissim justo. </p>
+                <h5 class="clients-devs__title">James Harly</h5>
+                <p class="clients-devs__footer-innner">Harly web, USA</p>
+            </div>
+
+            <div class="clients-devs__item">
+                <p class="clients-devs__inner">Aenean suscipit eu nulla et lacinia. Nulla diam felis, malesuada ut erat
+                    quis, mattis dignissim justo. </p>
+                <h5 class="clients-devs__title">James Harly</h5>
+                <p class="clients-devs__footer-innner">Harly web, USA</p>
+            </div>
+
+            <div class="clients-devs__item">
+                <p class="clients-devs__inner">Aenean suscipit eu nulla et lacinia. Nulla diam felis, malesuada ut erat
+                    quis, mattis dignissim justo. </p>
+                <h5 class="clients-devs__title">James Harly</h5>
+                <p class="clients-devs__footer-innner">Harly web, USA</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Advantages-section">
+
+        <div class="Advantages-section__item">
+            <h4 class="Advantages-section__title">70K</h4>
+            <p class="Advantages-section__inner">Shared Web Hosting</p>
+        </div>
+
+        <div class="Advantages-section__item">
+            <h4 class="Advantages-section__title">100M</h4>
+            <p class="Advantages-section__inner">VPS Hosting</p>
+        </div>
+
+        <div class="Advantages-section__item">
+            <h4 class="Advantages-section__title">11K</h4>
+            <p class="Advantages-section__inner">Dedicated Server</p>
+        </div>
+
+        <div class="Advantages-section__item">
+            <h4 class="Advantages-section__title">199+</h4>
+            <p class="Advantages-section__inner">Cloud Hosting</p>
+        </div>
+
+    </section>
+
+    <section class="rate-section">
+        <h2 class="rate-section__title">Our Flexible Plan</h2>
+
+        <div class="rate-box">
+
+            <div class="rate-box__item">
+
+                <div class="rate-box__item-text">
+                    <h6 class="rate-item__title">Monthly</h6>
+                    <h3 class="rate-item__inner">$ 199.50</h3>
+                </div>
+
+                <ul class="rate-item__list">
+                    <li><span>Host 5</span> Domain</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>50GB</span> Bandwidth</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                    <li><span>24/7</span> Support</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                </ul>
+
+                <a href="#" class="blue__button rate-item__btn">Buy Now</a>
+
+            </div>
+
+            <div class="rate-box__item rate-box__blue-item">
+
+                <div class="rate-box__item-text rate-box__blue-item-text">
+                    <h6 class="rate-item__white-title">Quarterly</h6>
+                    <h3 class="rate-item__white-inner">$ 199.50</h3>
+                </div>
+
+                <ul class="rate-item__white-list">
+                    <li><span>Host 5</span> Domain</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>50GB</span> Bandwidth</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                    <li><span>24/7</span> Support</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                </ul>
+
+                <a href="#" class="blue__button rate-item__btn">Buy Now</a>
+
+            </div>
+
+            <div class="rate-box__item">
+
+                <div class="rate-box__item-text">
+                    <h6 class="rate-item__title">Semi Annually</h6>
+                    <h3 class="rate-item__inner">$ 199.50</h3>
+                </div>
+
+                <ul class="rate-item__list">
+                    <li><span>Host 5</span> Domain</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>50GB</span> Bandwidth</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                    <li><span>24/7</span> Support</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                </ul>
+
+                <a href="#" class="blue__button rate-item__btn">Buy Now</a>
+
+            </div>
+
+            <div class="rate-box__item">
+
+                <div class="rate-box__item-text">
+                    <h6 class="rate-item__title">Annually</h6>
+                    <h3 class="rate-item__inner">$ 199.50</h3>
+                </div>
+
+                <ul class="rate-item__list">
+                    <li><span>Host 5</span> Domain</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>50GB</span> Bandwidth</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                    <li><span>24/7</span> Support</li>
+                    <li><span>2GB NVMe</span> Storage</li>
+                    <li><span>Free</span> SSL Certificate</li>
+                </ul>
+
+                <a href="#" class="blue__button rate-item__btn">Buy Now</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <section class="footer-info">
+
+            <div class="footer-info__text">
+                <a class="nav__logo" href="">
+                    <img src="img/Header/Logo.svg" alt="">
+                </a>
+                <p class="info-text__inner">Nulla diam felis, malesuada ut erat quis, mattis dignissim justo. Cras cursus, lacus et dignissim volutpat</p>
+            </div>
+
+            <nav class="info-nav">
+
+                <ul class="info-nav__list">
+                    <h6 class="info-list__title">Quickl Links</h6>
+
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Hbout Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+
+                <ul class="info-nav__list">
+                    <h6 class="info-list__title">Services</h6>
+
+                    <li><a href="">Shared Web Hosting</a></li>
+                    <li><a href="">VPS Hosting</a></li>
+                    <li><a href="">Dedicated Server</a></li>
+                    <li><a href="">Cloud Hosting</a></li>
+                    <li><a href="">Domain Names</a></li>
+                    <li><a href="">License Keys</a></li>
+                </ul>
+
+                <div class="info-nav__contacts">
+
+                    <div class="info-nav__list">
+                        <h6 class="info-list__title">Contact Us</h6>
+
+                        <p class="info-nav__inner">shied.info@gmail.com</p>
+                        <p class="info-nav__inner">+91 - 99xxx 000xx</p>
+                    </div>
+
+                    <div class="info-nav__soc-media" style="margin-top: 30px;">
+                        <h6 class="info-list__title">Follow Us</h6>
+
+                        <div class="info-nav__soc-medias-box">
+
+                            <a href="">
+                                <img src="img/Footer/FaceBook.svg" alt="">
+                            </a>
+
+                            <a href="">
+                                <img src="img/Footer/Twitter.svg" alt="">
+                            </a>
+
+                            <a href="">
+                                <img src="img/Footer/YouTube.svg" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </section>
+
+        <section class="footer-copyrights">
+
+            <p class="footer-copyrights__cr-text">© Copyright Ⓒ Sheild. All Rights Reserved.</p>
+
+            <p class="footer-copyrights__Policy-text">Privacy Policy | Tearms Condition</p>
+            
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
